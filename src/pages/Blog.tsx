@@ -35,7 +35,7 @@ const CategoryButton = styled.button<{ $isActive: boolean }>`
 
   &:hover {
     background: ${({ theme, $isActive }) =>
-      $isActive ? theme.colors.primaryDark : theme.colors.monochrome[100]};
+      $isActive ? theme.colors.primary.dark : theme.colors.monochrome[100]};
   }
 `;
 

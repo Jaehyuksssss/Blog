@@ -1,11 +1,10 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
-import { theme } from "./styles/theme";
-
-import Home from "./pages/Home";
-import Blog from "./pages/Blog";
 import About from "./pages/About";
+import Blog from "./pages/Blog";
+import Home from "./pages/Home";
 import PostPage from "./pages/PostPage";
+import { theme } from "./styles/theme";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (

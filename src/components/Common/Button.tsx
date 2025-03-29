@@ -44,16 +44,16 @@ export const Button = styled.button<ButtonProps>`
       background-color: ${theme.colors.primary};
       color: white;
       &:hover {
-        background-color: ${theme.colors.primaryDark};
+        background-color: ${theme.colors.primary.dark};
       }
     `}
 
     ${variant === "secondary" &&
     css`
-      background-color: ${theme.colors.secondary};
+      background-color: ${theme.colors.background.secondary};
       color: white;
       &:hover {
-        background-color: ${theme.colors.secondaryDark};
+        background-color: ${theme.colors.background.secondary};
       }
     `}
 
@@ -63,7 +63,7 @@ export const Button = styled.button<ButtonProps>`
       border: 1px solid ${theme.colors.primary};
       color: ${theme.colors.primary};
       &:hover {
-        background-color: ${theme.colors.primaryLight};
+        background-color: ${theme.colors.primary.light};
       }
     `}
   `}
