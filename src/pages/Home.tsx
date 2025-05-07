@@ -175,9 +175,8 @@ function Home() {
   return (
     <HomeContainer>
       <Hero>
-        <h1>Insights for Developers, by Developers</h1>
-        <p>인사이트를 전합니다.</p>
-        <Button to="/blog">최신 기술 블로그 읽기</Button>
+        <h1>Blog</h1>
+        <Button to="/blog">블로그 보러가기</Button>
       </Hero>
 
       <FeaturedPosts>
@@ -203,11 +202,6 @@ function Home() {
       </FeaturedPosts>
 
       <NewsletterSection>
-        <h2>기술 뉴스레터 구독하기</h2>
-        <p>
-          최신 프레임워크 트렌드부터 생산성 도구, 실전 개발 노하우까지 개발자를
-          위한 정보만 엄선해 전달드립니다.
-        </p>
         <Button to="/subscribe">Subscribe now</Button>
       </NewsletterSection>
     </HomeContainer>
