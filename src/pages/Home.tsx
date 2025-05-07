@@ -202,7 +202,7 @@ function Home() {
       </FeaturedPosts>
 
       <NewsletterSection>
-        <Button to="/subscribe">Subscribe now</Button>
+        <Button to="/subscribe">블로그 보러가기</Button>
       </NewsletterSection>
     </HomeContainer>
   );
