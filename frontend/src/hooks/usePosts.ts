@@ -21,9 +21,9 @@ const mockPosts: Post[] = [
     id: 2,
     title: "React 프로젝트 구조 설계",
     excerpt:
-      "컴포넌트 구조, 훅 관리, 타입 분리 등 유지보수가 쉬운 React 프로젝트 구조를 소개합니다.",
+      "",
     content:
-      "React 프로젝트가 커지면 구조 설계가 복잡해지고 유지보수가 어려워집니다. 이 글에서는 디렉토리 구조부터 공통 컴포넌트, 훅 분리, 모듈화 전략까지 현업에서 사용하는 베스트 프랙티스를 정리합니다...",
+      ".",
     date: "2025-03-28",
     author: {
       name: "Jaehyuk Lim",
@@ -36,9 +36,9 @@ const mockPosts: Post[] = [
     id: 3,
     title: "GitHub Actions로 CI/CD 파이프라인 구축하기",
     excerpt:
-      "React + S3 + CloudFront 환경에서 GitHub Actions로 배포 자동화를 구성하는 방법을 소개합니다.",
+      "",
     content:
-      "CI/CD 파이프라인은 개발 생산성을 높이는 핵심 요소입니다. GitHub Actions를 사용해 코드 커밋 후 S3에 자동 배포하고, CloudFront 무효화까지 처리하는 실전 예제를 안내합니다...",
+      "",
     date: "2025-03-25",
     author: {
       name: "Jaehyuk Lim",
