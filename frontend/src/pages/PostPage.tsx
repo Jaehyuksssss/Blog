@@ -1,13 +1,11 @@
-import { useParams } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Post } from "../types/post";
 import { Layout } from "../components/Layout/Layout";
 
 function PostPage() {
-  const { id } = useParams<{ id: string }>();
-  const [post, setPost] = useState<Post | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
+  const [post, _setPost] = useState<Post | null>(null);
+  const [loading, _setLoading] = useState(true);
+  const [error, _setError] = useState<string | null>(null);
 
 
 
